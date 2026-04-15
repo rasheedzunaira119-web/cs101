@@ -1,12 +1,16 @@
 #include <stdio.h>
 int main(){
-int temp =40;
+    int temp_limit =35;
+    int x ;
+    x = 35 ;
+    printf("Enter temperature ");
+    scanf("%d", &x);
 
-if(temp > 35) {
-    printf("Turn on the fan\n");
- } 
-if(temp < 35) {
-    printf("Tyrn off the fan\n");
-}
+    if(x > temp_limit) {
+        printf("Turn on the fan\n");
+    } 
+    if(x < temp_limit) {
+        printf("Turn off the fan\n");
+    }
     return 0;
 } 
