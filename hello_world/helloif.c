@@ -8,11 +8,11 @@ if( x > value)
     {    
         printf("%d > %d \n", x , value);
     }
-if( x == value)
+else if( x == value)
     {    
         printf("%d == %d\n", x , value);
     }
-if( x  < value)
+else if( x  < value)
     {    
         printf("%d < %d \n", x , value);
     }
