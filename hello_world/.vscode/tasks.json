@@ -7,10 +7,9 @@
       "command": "gcc",
       "args": [
         "-g",
-        "-O0",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
+        "${fileDirname}/${fileBasenameNoExtension}.out"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
