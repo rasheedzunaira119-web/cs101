@@ -8,11 +8,12 @@
       "program": "${fileDirname}/${fileBasenameNoExtension}.out",
       "args": [],
       "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
+      "cwd": "${fileDirname}",
       "environment": [],
       "externalConsole": false,
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
+      "miDebuggerArgs": "",
       "preLaunchTask": "C/C++: build active file",
       "setupCommands": [
         {
